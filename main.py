@@ -14,4 +14,6 @@ print(x, y)
 print(x + y)
 print(x / y)
 print(x ** y)
-#не понял гдaе можно посмотреть как сделать имя звёздочками
+
+from art import *
+tprint('Dima', font='Alligator1')
