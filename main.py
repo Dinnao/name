@@ -14,6 +14,5 @@ print(x, y)
 print(x + y)
 print(x / y)
 print(x ** y)
-
 from art import *
 tprint('Dima', font='Alligator1')
