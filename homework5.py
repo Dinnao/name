@@ -9,7 +9,7 @@ import datetime
 import time
 def count_doun(M):
     M = time.sleep(3)
-@count_doun
+count_doun(3)
 def time_now(now):
     now = datetime.datetime.now()
     return print(now)
@@ -26,5 +26,5 @@ while step != len_of_list:
 def comb_dict(keys, values):
     for k, v in zip(keys, values):
         new_dict[k] = v
-comb_dict(keys=Key_list , values= new_list)
+comb_dict(keys=key_list, values= new_list)
 print(new_dict)
