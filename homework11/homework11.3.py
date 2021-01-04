@@ -5,4 +5,4 @@ def longest_word(word):
             count = len(i)
             word = i
     print(word)
-longest_word('some words are bad'.split())
+longest_word(input('Please, enter some string: ').split())
